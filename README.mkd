@@ -2,10 +2,11 @@
 
 This repo is the supporting content for a Boston Vim meetup held on November 12th, 2012.
 
-Each folder is a single exercise and contains two files; the before and after.
-Open Vim with even vertical split, before on left, after on right. Hack on the
-before until it matches the after. Vimdiff (`:diffthis` command in both buffers)
- can be a great help to understand the problem.
+Each folder is a single exercise and contains two files; the _berfore_ file and
+_after_ file.  Open Vim with even vertical split, _berfore_ file on left,
+_after_ file on right. Hack on the _berfore_ file until it matches the _after_
+file. Vimdiff (`:diffthis` command in both buffers) can be a great help to
+understand the problem.
 
 The following maps can help with activating vimdiff mode. To enable diff mode
 just use the `<leader>dt` map in both buffers. To disable, use the `<leader>do`
