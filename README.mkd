@@ -4,8 +4,8 @@ This repo is the supporting content for a Boston Vim meetup held on November 12t
 
 Each folder is a single exercise and contains two files; the before and after.
 Open vim with even vertical split, before on left, after on right. Hack on the
-before until it matches the after. Vim diff can be a great help to understand
-the problem.
+before until it matches the after. Vimdiff (`:diffthis` command in both buffers)
+ can be a great help to understand the problem.
 
 01. [Golf: Line number indent][]
 02. [Golf: Format a table][]
