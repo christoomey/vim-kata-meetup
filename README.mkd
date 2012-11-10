@@ -3,9 +3,18 @@
 This repo is the supporting content for a Boston Vim meetup held on November 12th, 2012.
 
 Each folder is a single exercise and contains two files; the before and after.
-Open vim with even vertical split, before on left, after on right. Hack on the
+Open Vim with even vertical split, before on left, after on right. Hack on the
 before until it matches the after. Vimdiff (`:diffthis` command in both buffers)
  can be a great help to understand the problem.
+
+The following maps can help with activating vimdiff mode. To enable diff mode
+just use the `<leader>dt` map in both buffers. To disable, use the `<leader>do`
+map in either buffer.
+
+``` vim
+nmap <leader>dt :diffthis<cr>
+nmap <leader>do :diffoff<cr>
+```
 
 01. [Golf: Line number indent][]
 02. [Golf: Format a table][]
