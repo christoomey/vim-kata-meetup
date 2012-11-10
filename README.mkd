@@ -17,6 +17,9 @@ nmap <leader>dt :diffthis<cr>
 nmap <leader>do :diffoff<cr>
 ```
 
+These maps have also been provided in a file named "diff_maps.vim" in the root
+of this repo for easy sourcing.
+
 01. [Golf: Line number indent][]
 02. [Golf: Format a table][]
 03. [Euler: Sum of multiples of 3 & 5][]
