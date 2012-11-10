@@ -1,0 +1,54 @@
+## Vim Kata Meetup
+
+This repo is the supporting content for a Boston Vim meetup held on November 12th, 2012.
+
+Each folder is a single exercise and contains two files; the before and after.
+Open vim with even vertical split, before on left, after on right. Hack on the
+before until it matches the after. Vim diff can be a great help to understand
+the problem.
+
+01. [Golf: Line number indent][]
+02. [Golf: Format a table][]
+03. [Euler: Sum of multiples of 3 & 5][]
+[Golf: Extract Local Variable][]
+
+Search and replace all instances
+    - easy
+    - case sensitive
+    - Across project
+    - Delete all instances of
+
+Reformat text (csv?), pad dates, remove dollar signs, escape commas in description field
+
+Switch order of args in function definition
+
+Capture result of external command?
+
+Impliment very simpler parser specification. TDD or not. Longest example. FizBuzz?
+
+remove leading, trailing whitespace
+
+### References & Support
+
+Some sources that make for excellent deliberate Vim practice tools:
+
+- [Vimgolf][] - Vim exercises with before and after text. Goal is to define the
+  shortest sequence of Vim keystrokes that will change the before into the after.
+- [RubyQuiz][] - An archive of a weekly coding challenging implimented in Ruby.
+  Still great for practice
+- [ProjectEuler][] - A math / logic focused programming challenge site. These
+  ones get very tough very quick.
+- [General Code Katas][] - Collection of general code katas from the Pragmatic Programmers.
+- [VimKata](https://github.com/canadaduane/VimKata) - A Vim plugin based kata
+  that has a sequence of increasingly advanced Vim exercises.
+- [Gary Bernhardt String Calculator Kata](http://vimeo.com/8569257) - A short
+  video of Gary Bernhardt performing a string calculator kata using TDD in Vim. Very impressive.
+
+[Golf: Line number indent]: http://vimgolf.com/challenges/508fe9f57acca60002000037
+[Golf: Format a table]: http://vimgolf.com/challenges/508ecd058f06b6000200003c
+[Golf: Extract Local Variable]: http://justinram.wordpress.com/2010/12/31/vim-ruby-refactoring-extract-local-variable/
+[Euler: Sum of multiples of 3 & 5]: http://projecteuler.net/problem=1
+[Vimgolf]: http://vimgolf.com/
+[RubyQuiz]: http://www.rubyquiz.com/
+[ProjectEuler]: http://projecteuler.net/problems
+[General Code Katas]: http://codekata.pragprog.com/
