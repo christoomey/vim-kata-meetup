@@ -5,12 +5,17 @@ This repo is the supporting content for a Boston Vim meetup held on November 12t
 Each folder is a single exercise and contains two files; the _berfore_ file and
 _after_ file.  Open Vim with even vertical split, _berfore_ file on left,
 _after_ file on right. Hack on the _berfore_ file until it matches the _after_
-file. Vimdiff (`:diffthis` command in both buffers) can be a great help to
-understand the problem.
+file.
 
-The following maps can help with activating vimdiff mode. To enable diff mode
-just use the `<leader>dt` map in both buffers. To disable, use the `<leader>do`
-map in either buffer.
+Each of the problems can be approached using a number of different Vim
+features, and as in life there is rarely a single correct answer. Feel free to
+experiment and try more than one technique to solve a problem. Have a solid handle
+on search and replace? Try macros. Already mastered macros? Try the global command.
+
+Vimdiff (`:diffthis` command in both buffers) can be a great help to understand
+the problem.  The following maps can help with activating vimdiff mode. To
+enable diff mode just use the `<leader>dt` map in both buffers. To disable, use
+the `<leader>do` map in either buffer.
 
 ``` vim
 nmap <leader>dt :diffthis<cr>
