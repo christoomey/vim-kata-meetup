@@ -42,7 +42,7 @@ Switch order of args in function definition
 
 Capture result of external command?
 
-Impliment very simpler parser specification. TDD or not. Longest example. FizBuzz?
+Implement very simpler parser specification. TDD or not. Longest example. FizBuzz?
 
 remove leading, trailing whitespace
 
