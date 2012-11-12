@@ -2,15 +2,21 @@
 
 This repo is the supporting content for a Boston Vim meetup held on November 12th, 2012.
 
-Each folder is a single exercise and contains two files; the _berfore_ file and
-_after_ file.  Open Vim with even vertical split, _berfore_ file on left,
-_after_ file on right. Hack on the _berfore_ file until it matches the _after_
-file.
+The process is pretty simple. Each folder is a single exercise and contains two
+files; the _berfore_ file and _after_ file.  The suggested approach is:
+
+1. Open Vim with an even vertical split _berfore_ file on left, _after_ file on right. 
+2. Hack on the _berfore_ file until it matches the _after_ file.
+3. Try again using a different bit of vim functionality?
+4. ...
+5. Profit!
 
 Each of the problems can be approached using a number of different Vim
 features, and as in life there is rarely a single correct answer. Feel free to
 experiment and try more than one technique to solve a problem. Have a solid handle
 on search and replace? Try macros. Already mastered macros? Try the global command.
+
+### Vimdiff
 
 Vimdiff (`:diffthis` command in both buffers) can be a great help to understand
 the problem.  The following maps can help with activating vimdiff mode. To
@@ -23,28 +29,7 @@ nmap <leader>do :diffoff<cr>
 ```
 
 These maps have also been provided in a file named "diff_maps.vim" in the root
-of this repo for easy sourcing.
-
-01. [Golf: Line number indent][]
-02. [Golf: Format a table][]
-03. [Euler: Sum of multiples of 3 & 5][]
-[Golf: Extract Local Variable][]
-
-Search and replace all instances
-    - easy
-    - case sensitive
-    - Across project
-    - Delete all instances of
-
-Reformat text (csv?), pad dates, remove dollar signs, escape commas in description field
-
-Switch order of args in function definition
-
-Capture result of external command?
-
-Implement very simpler parser specification. TDD or not. Longest example. FizBuzz?
-
-remove leading, trailing whitespace
+of this repo for easy sourcing. Simply `:source diff_maps.vim<cr>` and you're set.
 
 ### References & Support
 
