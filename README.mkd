@@ -6,7 +6,7 @@ The process is pretty simple. Each folder is a single exercise and contains two
 files; the _berfore_ file and _after_ file.  The suggested approach is:
 
 1. Open Vim with an even vertical split _before_ file on left, _after_ file on right. 
-2. Hack on the _berfore_ file until it matches the _after_ file.
+2. Hack on the _before_ file until it matches the _after_ file.
 3. Try again using a different bit of vim functionality?
 4. ...
 5. Profit!
